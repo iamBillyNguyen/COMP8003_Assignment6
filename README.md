@@ -14,10 +14,6 @@ The check-integrity.sh bash script monitors the integrity of files within the /e
 ## **Disclaimer**
 This script uses the /etc and /var/log directories of any Linux-based machines to operate. However, it does not modify one's /etc or /var/log directory. In detail, the script hashes all files and links in the /etc directory and saves the hashes in the project's root for integrity check purpose.
 
-## **Prerequisites**
-
-- Install [python](https://www.python.org/downloads/)
-
 ## **Cloning the Repository**
 
 Clone the repository using the following command:
